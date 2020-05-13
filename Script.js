@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Tunisia-Sat Tweaks
-// @namespace    https://www.tunisia-sat.com/
+// @namespace    https://github.com/AdamBedoui/Tunisia-Sat-Tweaks
 // @version      0.1
 // @description  Some tweaks for our forum
 // @icon         https://www.tunisia-sat.com/forums/styles/default/TS/logo.og.png
@@ -13,7 +13,7 @@
 (function() {
     'use strict';
     
-    //Remove autorefresh function
+    //Remove auto-refresh function
     var refresh_icon = $('#WhatsNewTweak_Spin');
     refresh_icon.parent().css( "display", "none" );
     refresh_icon.css( "display", "none" );
