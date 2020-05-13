@@ -16,7 +16,6 @@
     //Remove auto-refresh function
     var refresh_icon = $('#WhatsNewTweak_Spin');
     refresh_icon.parent().css( "display", "none" );
-    refresh_icon.css( "display", "none" );
     toggleRefresh();
 
 })();
