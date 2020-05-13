@@ -12,11 +12,11 @@
 
 (function() {
     'use strict';
-
+    
+    //Remove autorefresh function
     var refresh_icon = $('#WhatsNewTweak_Spin');
     refresh_icon.parent().css( "display", "none" );
     refresh_icon.css( "display", "none" );
     toggleRefresh();
-    $('.p-header').css('background','#1f5c7a');
 
 })();
